@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"/>
+	<title>Q4Seatwork1</title>
+<style>
+	body{
+		background-color: #add8e6;
+	}
+	h1{
+			border: solid;
+			border-color: #6FC0DB;
+			background-color: #D6EBF2;
+			text-align: center;
+		}
+	#img{
+		height: 100px;
+		width: 100px;
+	}
+</style>
+</head>
+<body>
+<center>
+	<h1>CURRENCY EXCHANGE</h1>
+	<img src="yen.png" id="img">
+	<p id="answer"></p>
+	<a href="index.html" class="btn btn-primary">Main Page</a>
+	<script type="text/javascript">
+		let a, b, c; // declare variables
+		a=100;
+		b=2.69;
+		c=a*b;
+
+		document.getElementById('answer').innerHTML="<h2 class='text-info'>The price of 100 pesos in yen is </h2><br><br>" + c + "</h2>";
+	//document.write("<h2 class='text-info'>As of April 4, 2024 12:45 am</h2>");
+		//alert("As of April 4, 2024 12:45 am");
+	</script>
+</center>
+</body>
+</html>
